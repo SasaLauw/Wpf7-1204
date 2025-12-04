@@ -1,0 +1,28 @@
+-JSON (JavaScript Object Notation) 是一種輕量級的資料交換格式。它基於 JavaScript 語言的一個子集，但它獨立於程式語言，這表示幾乎所有主流的程式語言（如 Python, Java, C++, PHP, JavaScript 等）都有函式庫可以讀取、產生和解析 JSON 資料。
+
+-JSON 的主要特點：
+易於閱讀和撰寫： 它使用純文字來表示資料結構，人類很容易看懂。
+易於機器解析和生成： 程式語言處理 JSON 格式非常快速且方便。
+
+-資料傳輸格式： 它被廣泛用於網頁應用程式中，作為伺服器和瀏覽器之間傳輸資料的主要格式，也常用於 API (應用程式介面) 的資料傳輸。
+
+
+如何把資料存成 JSON？ 💾
+將資料存成 JSON 的過程，本質上就是將您程式語言中的資料結構（例如 Python 的字典/列表、Java 的 Map/List）轉換成 JSON 格式的純文字。這個過程通常稱為「序列化」(Serialization) 或「編碼」(Encoding)。
+
+這是一個包含物件和陣列的 JSON 範例：
+{
+  "studentId": "S001",
+  "name": "陳小明",
+  "isEnrolled": true,
+  "scores": [
+    95,
+    88,
+    92
+  ],
+  "contact": {
+    "email": "ming@example.com",
+    "phone": "0912345678"
+  },
+  "note": null
+}
